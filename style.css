@@ -1,0 +1,101 @@
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #342B22;
+}
+
+.t1 {
+    padding-top: 180px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.t2 {
+    padding-top: 0px;
+
+    font-size: 18px;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    background-image: url("https://www.eger.hu/public/pic/editor/01bfaca1b354790d48829868bae9134f_1920.JPG");
+    background-size: cover;
+    background-color: #000000;
+    background-position: center;
+    height: 400px;
+}
+
+nav {
+    background-color: #5f2319;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+
+nav a {
+    /*link aláhúzását szüntetni meg*/
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.disclaimer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    border: solid 5px rgb(184, 2, 2);
+    border-radius: 15px;
+}
+
+.hirekesprogramok {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+section {
+    background-color: #473e11;
+    border-radius: 25px;
+    border: solid 1px #000000;
+    color: #ffffff;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+section h3 {
+    font-family: Libre Baskerville, serif;
+    font-weight: semi-bold;
+    font-size: 24px;
+}
+
+section img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 1px #000000;
+}
+
+.moonicon {
+    object-fit: contain;
+    border: none;
+}
+
+footer {
+    background-color: #5f2319;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px
+}
+
